@@ -1,0 +1,13 @@
+<launch>
+
+    <include file="$(find armstone_moveit_config)/launch/move_group.launch"/>
+
+    <include file="$(find as_bringup)/launch/as_sim.launch">
+        <arg name="base_controller" value="as_base_differential_controller" />
+        <!-- <arg name="paused" value="false"/> -->
+    </include>
+
+    <node name="as_testing_node" pkg="armstone_controller" type="as_testing_node" output="screen"/>
+
+
+</launch>

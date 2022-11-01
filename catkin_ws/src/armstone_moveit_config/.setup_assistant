@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: as_description
+    relative_path: robots/as.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/armstone.srdf
+  CONFIG:
+    author_name: Tim Andersson
+    author_email: andersson.tim.f@gmail.com
+    generated_timestamp: 1630600296

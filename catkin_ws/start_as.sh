@@ -1,0 +1,3 @@
+catkin_make
+source devel/setup.bash
+roslaunch armstone_controller launch_with_control.launch
